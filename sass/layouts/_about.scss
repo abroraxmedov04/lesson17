@@ -1,0 +1,72 @@
+@import "../base/reset";
+@import "../base/container";
+
+//variables
+@import "../utils/variables";
+.back_image {
+  width: 646px;
+}
+.about_products {
+  background: #f4f9fc;
+  margin-top: 160px;
+}
+
+.about_wrapp {
+  display: flex;
+  align-items: center;
+  //   justify-content: space-between;
+  gap: 50px;
+}
+
+.about_info_side {
+  .top_about {
+    color: var(--c-72535, #c72535);
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.03px;
+    text-transform: uppercase;
+    opacity: 0.6;
+  }
+
+  .about_title {
+    color: var(--B, #030d15);
+    font-family: Hind Siliguri;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .about_body {
+    color: var(--B, #030d15);
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.6;
+    margin-top: 115px;
+  }
+
+  .about_options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      color: var(--B, #030d15);
+      font-family: Hind Siliguri;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px; /* 192.857% */
+    }
+  }
+}

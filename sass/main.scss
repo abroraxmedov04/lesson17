@@ -1,0 +1,13 @@
+@import '../sass/base/reset';
+@import '../sass/base/_container';
+@import '../sass/utils/variables';
+
+
+// layouts
+
+@import './layouts/vaigation';
+@import './layouts/hero';
+@import './layouts/products';
+@import './layouts/about';
+
+

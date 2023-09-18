@@ -1,0 +1,135 @@
+@import "../base/reset";
+@import "../base/container";
+
+//variables
+@import "../utils/variables";
+
+.products__wrapper {
+  margin-top: 110px;
+  display: flex;
+
+  .products__card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+.card_image {
+  position: relative;
+
+  .icon__product {
+    position: absolute;
+    left: 235px;
+    top: -15px;
+  }
+}
+
+.card_title {
+  color: var(--B, #030d15);
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card__body {
+  margin-top: 9px;
+  color: var(--B, #030d15);
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  opacity: 0.6;
+  max-width: 256px;
+}
+
+.product_price {
+  display: flex;
+  margin-top: 27px;
+  gap: 10px;
+  li {
+    color: var(--B, #030d15);
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 168.75% */
+  }
+}
+
+.lined_price {
+  color: #030d15;
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px; /* 168.75% */
+  text-decoration-line: strikethrough;
+  opacity: 0.5;
+}
+
+.stars {
+  margin-top: 15px;
+}
+
+// first product completed
+
+.products__wrapper_2 {
+  display: flex;
+  margin-top: 160px;
+  justify-content: space-between;
+}
+
+.products__card_2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: linear-gradient(257deg, #008bf0 -13.2%, #d943c9 130.95%);
+  height: 296px;
+  padding: 0 25px;
+  width: 555px;
+}
+.card_title_2 {
+  color: var(--e-6-edf-2, #f4f9fc);
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.card__body_2 {
+  color: var(--e-6-edf-2, #f4f9fc);
+  font-family: Hind Siliguri;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40.3px; /* 130% */
+  max-width: 249px;
+  margin-top: 5px;
+}
+
+.show_now {
+  color: var(--e-6-edf-2, #f4f9fc);
+  // text-align: center;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 192.857% */
+  text-transform: uppercase;
+}
+
+.card_image2 {
+  position: absolute;
+  right: 0;
+}

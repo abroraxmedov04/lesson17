@@ -1,0 +1,119 @@
+@import "../base/reset";
+@import "../base/container";
+
+//variables
+@import "../utils/variables";
+
+#hero {
+  margin-top: 54px;
+  align-items: center;
+
+  .hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.hero__info {
+  .top__title {
+    color: var(--c-72535, #c72535);
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    opacity: 0.6;
+  }
+
+  .main__title {
+    margin-top: 10px;
+    color: #030d15;
+    font-family: Hind Siliguri;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 73.2px;
+    max-width: 555px;
+
+    span {
+      color: var(--p, #247cc0);
+      font-family: Hind Siliguri;
+      font-size: 61px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 73.2px;
+      background-color: rgb(233, 242, 249);
+    }
+  }
+}
+
+.hero__body {
+  color: #030d15;
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 135% */
+  margin-top: 29px;
+  opacity: 0.6;
+}
+
+.btn__keeper {
+  margin-top: 36px;
+  display: flex;
+  gap: 31px;
+  align-items: center;
+
+  button {
+    padding: 16px 34px;
+    background: #247cc0;
+    color: #fff;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+  }
+
+  .hero_price {
+    display: flex;
+    gap: 18px;
+
+    li {
+      color: #030d15;
+      text-align: center;
+      font-family: Hind Siliguri;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px; /* 135% */
+    }
+  }
+  .price_lined {
+    color: #030d15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 168.75% */
+    text-decoration-line: strikethrough;
+    opacity: 0.5;
+  }
+}
+
+.brands {
+  padding: 76px 118px;
+  background: #FFF;
+  box-shadow: 0px -1.73968px 1.20532px 0px rgba(174, 174, 174, 0.02), 0px 0.19008px 4.14347px 0px rgba(174, 174, 174, 0.03), 0px 6.77214px 9.61331px 0px rgba(174, 174, 174, 0.04), 0px 19.8401px 19.14056px 0px rgba(174, 174, 174, 0.05), 0px 43.751px 36.44142px 0px rgba(174, 174, 174, 0.06), 0px 100px 80px 0px rgba(174, 174, 174, 0.08);
+
+  ul {
+    display: flex;
+    gap: 84px;
+  }
+}
